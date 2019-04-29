@@ -1,0 +1,54 @@
+.forecast-container{
+	background: #323544;
+    display: table;
+    table-layout: fixed;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    /*margin-top: -150px;
+    margin-bottom: 50px;*/
+}
+.forecast.today {
+    width: 420px;
+}
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.day{
+	float: left;
+}
+.forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+    text-align: left;
+}
+.forecast-container .forecast.today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.degree .num{
+	font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 30px;
+}
+body{
+	color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.degree .forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
